@@ -5,7 +5,7 @@ body{
 }
 
 .header{
-    max-width: 85%;
+    
     padding-left: 30px;
     display: flex;
     justify-content: flex-start;
@@ -17,7 +17,7 @@ body{
 .links{
     display: flex;
     justify-content: flex-end;
-    width: 100%;
+    width: 89%;
     gap: 20px;
 }
 
@@ -33,11 +33,11 @@ a{
 }
 
 .textButtonImg{
-    max-width: 85%;
-    padding-left: 30px;
+    
+    
     display: flex;
     margin-top: 100px;
-    justify-content: space-between;
+    justify-content: center;
     padding-bottom: 120px;
 }
 
@@ -45,6 +45,7 @@ a{
 .textAndButton{
     color: white;
     padding-right: 50px;
+    max-width: 900px;
 }
 
 h1{
@@ -85,8 +86,44 @@ button{
 }
 h2{
     text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
 }
 
 .infotext{
-    max-width: 152px;
+    max-width: 161px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(97, 97, 97);
+}
+
+.ill{
+    border-radius: 9px;
+    border: 3px solid #3882F6;
+}
+
+.quote{
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.quoteText{
+    font-size: 40px;
+    font-style: italic;
+    font-weight: lighter;
+    max-width: 850px;
+    
+}
+
+.author{
+    
+    padding-top: 20px;
+    font-size: 19px;
+    font-weight: bold;
+    
+    
 }
