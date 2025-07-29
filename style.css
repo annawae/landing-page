@@ -57,7 +57,7 @@ h1{
 
 p{
     font-size: 18px;
-    font-family: 
+     
 }
 
 button{
@@ -65,7 +65,7 @@ button{
     color: white;
     padding: 9px 30px;
     font-size: 18px;
-    border-radius: 12%;
+    border-radius: 0.5em;
 }
 
 .informations{
@@ -98,7 +98,7 @@ h2{
 }
 
 .ill{
-    border-radius: 9px;
+    border-radius: 1em;
     border: 3px solid #3882F6;
 }
 
@@ -151,6 +151,7 @@ h3{
     width: 900px;
     gap: 25px;
     color: white;
+    border-radius: 1em;
 }
 
 .action{
