@@ -112,9 +112,9 @@ h2{
 }
 
 .quoteText{
-    font-size: 40px;
+    font-size: 38px;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: light;
     max-width: 850px;
     
 }
@@ -126,4 +126,46 @@ h2{
     font-weight: bold;
     
     
+}
+
+.signUp{
+    background-color: #e5e7eb;
+    margin: 0;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    margin: 0;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    height: 150px;
+    align-items: center;
+    width: 900px;
+    gap: 25px;
+    color: white;
+}
+
+.action{
+    display: flex; 
+    flex-direction: column;
+}
+
+#botButton{
+    border: 1px solid;
+}
+
+.footer{
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding-top: 28px;
+    font-size: 14px;
 }
